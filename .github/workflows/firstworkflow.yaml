@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cat ../firstfile.txt
+      - run: echo this is just a demo check
 ...
 
